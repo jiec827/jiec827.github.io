@@ -1,0 +1,4 @@
+# Jekyll generated tmp files
+_site
+# OSX temp files
+.DS_Store
