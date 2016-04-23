@@ -3,7 +3,7 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: pygments
+highlighter: rouge  # pygments / rouge
 markdown: kramdown
 disqus: False
 google_analytics: False
@@ -14,25 +14,27 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Jie Cheng
+      title: 个人主页
 
-description: Stylish Jekyll Theme
+description: Mind's Weekend
 author:
   name: Jie Cheng
   email: jie.cheng@Aliyun.com
   github: jiec827
+  linkedin: in/jie-cheng-1659a8117
+  weibo: jiec827?is_all=1
   jianshu: users/ac456d638b07/latest_articles
   pinterest: jie_cheng/
-  linkedin: in/jie-cheng-1659a8117
-  bio: Stay hungry, Stay foolish
+  bio: Tell stories & Share ideas
   email_md5: jie.cheng@Aliyun.com
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+resume_path: resume.html
 
 # set it as url of an image
-sidebar_background_image: assets/sky.png
+# sidebar_background_image: assets/sky.png
 
 BASE_PATH:
 
