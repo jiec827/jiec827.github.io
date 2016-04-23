@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 基于GitHub+Jekyll的网站文件结构
-categories: [demo, tech_notes]
-tags: [demo, Jekyll]
+categories: [Demo]
+tags: [Jekyll]
 fullview: False
 shortinfo: 简介Jekyll的文件结构
 ---
@@ -57,5 +57,18 @@ shortinfo: 简介Jekyll的文件结构
 
   # set it as url of an image
   # sidebar_background_image: assets/sky.png
-
 {% endhighlight %}
+
+### _posts 博客更新
+博客放置在 _posts 目录下，并且文件名称必须是 **2016-04-20-welcome-to-jekyll.md** 格式，即以时间开始，以 .md 或 .markdown 结尾。博客文件必须包含文件头，格式如下：
+
+    ---
+    layout: post
+    title: 博客名称
+    categories: [Demo, General, Tech_notes, Essay, Projects]
+    tags: [C/C++, Python, Jekyll, Linux, MySQL, Markdown]
+    fullview: [True, False]
+    shortinfo: 博客内容的摘要，显示在目录里
+    ---
+
+这里约定 categories 和 tags 仅取上述枚举元素，即 categories 为工作类别， tags 为对应的变成语言。

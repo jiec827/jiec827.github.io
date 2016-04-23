@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello World!
-categories: [demo]
-tags: [demo, About me]
+categories: [General]
+tags: [Markdown]
 fullview: False
 content: demo_content
 shortinfo: Say Hi to the world !
