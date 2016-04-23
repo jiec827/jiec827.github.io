@@ -1,20 +1,11 @@
 ---
-layout: post
-title: Hello World!
-categories: [demo]
-tags: [demo, About me]
-fullview: False
-content: demo_content
-shortinfo: Say Hi to the world !
-description: Play as a Template.
-excerpt: abstract
-comments: true
+layout: page
+title: Resume
+categories: [About me]
+tags: [About me]
+header: Posts By Resume
+group: navigation
 ---
-
-### Hello World!
-Hi, I am Jie Cheng.
-
-Welcome to my personal website. Please feel free to click and discover the following tags. Aiming to tell stories and share ideas, I determined to build an online community here. Topics cover personal experiences, travel notes, history, faith et al. Honestly, most of them are re-organised or reprint from online link, even though being an independent writer is my dream. "No accumulation of steps, can't lead to thousand miles." At least, I am keeping practice and enjoying it.
 
 #### **Jie Cheng**
 * Engineer in Aerospace
